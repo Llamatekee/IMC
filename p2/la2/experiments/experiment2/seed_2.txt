@@ -1,0 +1,9 @@
+Epoch	TrainError	TrainCCR	TestCCR
+
+Confusion Matrix[ExpectedClass][ObtainedClass]
+150	28	4	0	9	9	
+0	191	1	4	2	2	
+0	1	196	0	1	2	
+0	3	0	196	0	1	
+0	3	5	0	188	4	
+0	2	1	0	1	196	

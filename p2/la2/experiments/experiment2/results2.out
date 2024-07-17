@@ -1,0 +1,70 @@
+EXPERIMENT 2
+1. XOR dataset:
+
+   l = 2, h = 100, e = 0.700000, m = 1.000000, f = 0, s = false, n = false
+Train error (Mean +- SD): 7.39833e-05 +- 1.49847e-05
+Test error (Mean +- SD): 7.39833e-05 +- 1.49847e-05
+Train CCR (Mean +- SD): 75 +- 0
+Test CCR (Mean +- SD): 75 +- 0
+Elapsed time: 4.158103 seconds
+
+   l = 2, h = 100, e = 0.700000, m = 1.000000, f = 0, s = true, n = false
+Train error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Test error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 3.830993 seconds
+
+   l = 2, h = 100, e = 0.700000, m = 1.000000, f = 1, s = true, n = false
+Train error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Test error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 3.846533 seconds
+
+2. ProPublica COMPAS dataset:
+
+   l = 2, h = 4, e = 0.700000, m = 1.000000, f = 0, s = false, n = false
+Train error (Mean +- SD): 0.0647387 +- 0.0335123
+Test error (Mean +- SD): 0.0672062 +- 0.0348046
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 27.937801 seconds
+
+   l = 2, h = 4, e = 0.700000, m = 1.000000, f = 0, s = true, n = false
+Train error (Mean +- SD): 0.299767 +- 0.000877069
+Test error (Mean +- SD): 0.306011 +- 0.000880332
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 99.9446 +- 0
+Elapsed time: 62.885651 seconds
+
+   l = 2, h = 4, e = 0.700000, m = 1.000000, f = 1, s = true, n = false
+Train error (Mean +- SD): 0.297814 +- 0.00102205
+Test error (Mean +- SD): 0.305392 +- 0.000404637
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 99.8448 +- 0.199557
+Elapsed time: 156.266904 seconds
+
+3. noMNIST dataset:
+
+   l = 2, h = 16, e = 0.700000, m = 1.000000, f = 0, s = false, n = false
+Train error (Mean +- SD): 0.00440824 +- 0.00248628
+Test error (Mean +- SD): 0.00436263 +- 0.00247505
+Train CCR (Mean +- SD): 19.7111 +- 3.35739
+Test CCR (Mean +- SD): 19.0667 +- 5.02615
+Elapsed time: 352.467235 seconds
+
+   l = 2, h = 16, e = 0.700000, m = 1.000000, f = 0, s = true, n = false
+Train error (Mean +- SD): 0.0216922 +- 0.00167471
+Test error (Mean +- SD): 0.107539 +- 0.00294805
+Train CCR (Mean +- SD): 85.4667 +- 2.08629
+Test CCR (Mean +- SD): 71 +- 1.36626
+Elapsed time: 673.197247 seconds
+
+   l = 2, h = 16, e = 0.700000, m = 1.000000, f = 1, s = true, n = false
+Train error (Mean +- SD): 0.0022593 +- 0.000128988
+Test error (Mean +- SD): 0.116318 +- 0.0143732
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 71.2667 +- 1.42049
+Elapsed time: 2846.071890 seconds
+

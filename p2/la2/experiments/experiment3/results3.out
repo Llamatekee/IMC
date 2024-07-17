@@ -1,0 +1,49 @@
+EXPERIMENT 2
+1. XOR dataset:
+
+   l = 2, h = 100, e = 0.700000, m = 1.000000, f = 1, s = true, n = false
+Train error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Test error (Mean +- SD): 0.000599249 +- 5.03008e-05
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 4.230663 seconds
+
+   l = 2, h = 100, e = 0.700000, m = 1.000000, f = 1, s = true, n = false
+Train error (Mean +- SD): 9.60261e-05 +- 1.89384e-05
+Test error (Mean +- SD): 9.60261e-05 +- 1.89384e-05
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 4.986208 seconds
+
+2. ProPublica COMPAS dataset:
+
+   l = 2, h = 4, e = 0.700000, m = 1.000000, f = 0, s = false, n = false
+Train error (Mean +- SD): 0.0647387 +- 0.0335123
+Test error (Mean +- SD): 0.0672062 +- 0.0348046
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 28.941387 seconds
+
+   l = 2, h = 4, e = 0.700000, m = 1.000000, f = 0, s = false, n = false
+Train error (Mean +- SD): 0.0620363 +- 0.0323499
+Test error (Mean +- SD): 0.0643818 +- 0.0335814
+Train CCR (Mean +- SD): 100 +- 0
+Test CCR (Mean +- SD): 100 +- 0
+Elapsed time: 38.936956 seconds
+
+3. noMNIST dataset:
+
+   l = 2, h = 16, e = 0.700000, m = 1.000000, f = 0, s = true, n = false
+Train error (Mean +- SD): 0.0216922 +- 0.00167471
+Test error (Mean +- SD): 0.107539 +- 0.00294805
+Train CCR (Mean +- SD): 85.4667 +- 2.08629
+Test CCR (Mean +- SD): 71 +- 1.36626
+Elapsed time: 685.695847 seconds
+
+   l = 2, h = 16, e = 0.700000, m = 1.000000, f = 0, s = true, n = false
+Train error (Mean +- SD): 0.817862 +- 0.0633567
+Test error (Mean +- SD): 0.850576 +- 0.063249
+Train CCR (Mean +- SD): 22.4 +- 1.74072
+Test CCR (Mean +- SD): 21.9333 +- 2.61109
+Elapsed time: 95.479731 seconds
+
