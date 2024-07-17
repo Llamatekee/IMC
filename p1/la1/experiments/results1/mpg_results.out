@@ -1,0 +1,51 @@
+EXPERIMENT 1
+Consider number of hidden layer = 1/2 and  neurons = 2, 4, 8, 32, 64 y 100 
+
+3. AUTO MPG DATASET:
+
+   l = 1, n = 2
+Train error (Mean +- SD): 0.0503848 +- 0.0157352
+Test error (Mean +- SD):          0.0472035 +- 0.0148411
+   l = 2, n = 2
+Train error (Mean +- SD): 0.0421328 +- 0.0170314
+Test error (Mean +- SD):          0.0360756 +- 0.0179131
+
+
+  l = 1, n = 4
+Train error (Mean +- SD): 0.0575833 +- 0.0200467
+Test error (Mean +- SD):          0.0587243 +- 0.0229748
+  l = 2, n = 4
+Train error (Mean +- SD): 0.0698431 +- 0.0251795
+Test error (Mean +- SD):          0.0661566 +- 0.0297423
+
+
+  l = 1, n = 8
+Train error (Mean +- SD): 0.0184446 +- 0.00818181
+Test error (Mean +- SD):          0.0142829 +- 0.00590306
+  l = 2, n = 8
+Train error (Mean +- SD): 0.0324618 +- 0.0103745
+Test error (Mean +- SD):          0.027766 +- 0.00793947
+
+
+  l = 1, n = 32
+Train error (Mean +- SD): 0.0071128 +- 0.00151472
+Test error (Mean +- SD):          0.00766544 +- 0.00163126
+  l = 2, n = 32
+Train error (Mean +- SD): 0.0179523 +- 0.00870276
+Test error (Mean +- SD):          0.0168803 +- 0.00647706
+
+
+  l = 1, n = 64
+Train error (Mean +- SD): 0.0267791 +- 0.027617
+Test error (Mean +- SD):          0.0178723 +- 0.0165191
+  l = 2, n = 64
+Train error (Mean +- SD): 0.0456452 +- 0.0745984
+Test error (Mean +- SD):          0.0424289 +- 0.0643001
+
+
+  l = 1, n = 100
+Train error (Mean +- SD): 0.0301736 +- 0.0172557
+Test error (Mean +- SD):          0.0357913 +- 0.0299167
+  l = 2, n = 100
+Train error (Mean +- SD): 0.00765243 +- 0.000883788
+Test error (Mean +- SD):          0.00751826 +- 0.000955446

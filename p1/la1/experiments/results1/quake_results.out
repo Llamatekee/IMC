@@ -1,0 +1,51 @@
+EXPERIMENT 1
+Consider number of hidden layer = 1/2 and  neurons = 2, 4, 8, 32, 64 y 100 
+
+3. QUAKE DATASET:
+
+   l = 1, n = 2
+Train error (Mean +- SD): 0.165327 +- 0.075057
+Test error (Mean +- SD):          0.163568 +- 0.0754274
+   l = 2, n = 2
+Train error (Mean +- SD): 0.0475693 +- 0.0143249
+Test error (Mean +- SD):          0.0450249 +- 0.0145282
+
+
+  l = 1, n = 4
+Train error (Mean +- SD): 0.0475008 +- 0.0225532
+Test error (Mean +- SD):          0.0448039 +- 0.0225956
+  l = 2, n = 4
+Train error (Mean +- SD): 0.106999 +- 0.0329799
+Test error (Mean +- SD):          0.105027 +- 0.0331454
+
+
+  l = 1, n = 8
+Train error (Mean +- SD): 0.055017 +- 0.0350405
+Test error (Mean +- SD):          0.052587 +- 0.0356882
+  l = 2, n = 8
+Train error (Mean +- SD): 0.033819 +- 0.00426385
+Test error (Mean +- SD):          0.0310616 +- 0.00438118
+
+
+  l = 1, n = 32
+Train error (Mean +- SD): 0.0513887 +- 0.031012
+Test error (Mean +- SD):          0.0490565 +- 0.0318429
+  l = 2, n = 32
+Train error (Mean +- SD): 0.0391623 +- 0.0110673
+Test error (Mean +- SD):          0.0361634 +- 0.0108072
+
+
+  l = 1, n = 64
+Train error (Mean +- SD): 0.0456043 +- 0.0121674
+Test error (Mean +- SD):          0.0424836 +- 0.0118869
+  l = 2, n = 64
+Train error (Mean +- SD): 0.0353627 +- 0.0105226
+Test error (Mean +- SD):          0.0325254 +- 0.010257
+
+
+  l = 1, n = 100
+Train error (Mean +- SD): 0.041641 +- 0.0120729
+Test error (Mean +- SD):          0.0388026 +- 0.0116336
+  l = 2, n = 100
+Train error (Mean +- SD): 0.0354552 +- 0.0104848
+Test error (Mean +- SD):          0.0326212 +- 0.010217

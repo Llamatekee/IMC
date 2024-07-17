@@ -1,0 +1,69 @@
+EXPERIMENT 1
+Consider number of hidden layer = 1/2 and  neurons = 2, 4, 8, 32, 64 y 100 
+
+1. XOR PROBLEM:
+
+   l = 1, n = 2
+Train error (Mean +- SD): 0.283139 +- 0.0320771
+Test error (Mean +- SD):          0.28314 +- 0.0320768
+   l = 2, n = 2
+Train error (Mean +- SD): 0.244155 +- 0.028406
+Test error (Mean +- SD):          0.244155 +- 0.028406
+   l = 5, n = 2
+Train error (Mean +- SD): 0.261521 +- 0.0105792
+Test error (Mean +- SD):          0.261521 +- 0.0105792
+
+
+  l = 1, n = 4
+Train error (Mean +- SD): 0.251745 +- 0.0443425
+Test error (Mean +- SD):          0.251745 +- 0.0443425
+  l = 2, n = 4
+Train error (Mean +- SD): 0.23881 +- 0.0124342
+Test error (Mean +- SD):          0.23881 +- 0.0124342
+   l = 5, n = 4
+Train error (Mean +- SD): 0.219043 +- 0.04844
+Test error (Mean +- SD):          0.219043 +- 0.04844
+
+
+  l = 1, n = 8
+Train error (Mean +- SD): 0.145517 +- 0.0595993
+Test error (Mean +- SD):          0.145517 +- 0.0595993
+  l = 2, n = 8
+Train error (Mean +- SD): 0.218292 +- 0.0514311
+Test error (Mean +- SD):          0.218292 +- 0.0514311
+   l = 5, n = 8
+Train error (Mean +- SD): 0.249977 +- 3.7244e-05
+Test error (Mean +- SD):          0.249977 +- 3.7244e-05
+
+
+  l = 1, n = 32
+Train error (Mean +- SD): 0.0192992 +- 0.0161049
+Test error (Mean +- SD):          0.0192995 +- 0.0161046
+  l = 2, n = 32
+Train error (Mean +- SD): 0.00969784 +- 0.00645419
+Test error (Mean +- SD):          0.00969853 +- 0.00645385
+   l = 5, n = 32
+Train error (Mean +- SD): 0.110823 +- 0.114067
+Test error (Mean +- SD):          0.110823 +- 0.114067
+
+
+  l = 1, n = 64
+Train error (Mean +- SD): 0.0995657 +- 0.121508
+Test error (Mean +- SD):          0.0995657 +- 0.121508
+  l = 2, n = 64
+Train error (Mean +- SD): 0.00165301 +- 0.00221251
+Test error (Mean +- SD):          0.00165301 +- 0.00221251
+   l = 5, n = 64
+Train error (Mean +- SD): 0.0577208 +- 0.0467478
+Test error (Mean +- SD):          0.0577208 +- 0.0467478
+
+
+  l = 1, n = 100
+Train error (Mean +- SD): 0.100026 +- 0.12242
+Test error (Mean +- SD):          0.100026 +- 0.12242
+  l = 2, n = 100
+Train error (Mean +- SD): 0.000177182 +- 5.95404e-05
+Test error (Mean +- SD):          0.000177182 +- 5.95404e-05
+   l = 5, n = 100
+Train error (Mean +- SD): 0.000115301 +- 0.000196396
+Test error (Mean +- SD):          0.000116481 +- 0.000195748
