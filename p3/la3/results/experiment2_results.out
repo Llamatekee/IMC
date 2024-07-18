@@ -1,0 +1,202 @@
+EXPERIMENT 2
+Comparing numbers of coefficients
+
+1. ProPublica COMPAS:
+   r=0.5, η = 10−3, L1
+Training MSE: 0.203827 +- 0.000025
+Test MSE: 0.212638 +- 0.000078
+Training CCR: 68.22% +- 0.03%
+Test CCR: 67.05% +- 0.04%
+Number of coeffs:  [985. 984. 985. 992. 989.]
+Average of coefficients: 987.00
+   r=0.5, η = 10−3, L2
+Training MSE: 0.203826 +- 0.000025
+Test MSE: 0.212639 +- 0.000078
+Training CCR: 68.21% +- 0.03%
+Test CCR: 67.05% +- 0.04%
+Number of coeffs:  [984. 982. 987. 992. 989.]
+Average of coefficients: 986.80
+   r=0.5, η = 10−2, L1
+Training MSE: 0.203840 +- 0.000024
+Test MSE: 0.212645 +- 0.000077
+Training CCR: 68.22% +- 0.03%
+Test CCR: 67.05% +- 0.04%
+Number of coeffs:  [990. 984. 991. 996. 992.]
+Average of coefficients: 990.60
+   r=0.5, η = 10−2, L2
+Training MSE: 0.203827 +- 0.000024
+Test MSE: 0.212639 +- 0.000078
+Training CCR: 68.21% +- 0.02%
+Test CCR: 67.05% +- 0.04%
+Number of coeffs:  [984. 982. 986. 992. 989.]
+Average of coefficients: 986.60
+   r=0.5, η = 10−1, L1
+Training MSE: 0.203954 +- 0.000026
+Test MSE: 0.212702 +- 0.000074
+Training CCR: 68.26% +- 0.03%
+Test CCR: 67.03% +- 0.06%
+Number of coeffs:  [ 999.  998. 1010. 1005. 1007.]
+Average of coefficients: 1003.80
+   r=0.5, η = 10−1, L2
+Training MSE: 0.203834 +- 0.000024
+Test MSE: 0.212639 +- 0.000079
+Training CCR: 68.22% +- 0.02%
+Test CCR: 67.05% +- 0.04%
+Number of coeffs:  [984. 982. 984. 992. 989.]
+Average of coefficients: 986.20
+   r=0.5, η = 1, L1
+Training MSE: 0.205345 +- 0.000018
+Test MSE: 0.213487 +- 0.000054
+Training CCR: 68.17% +- 0.01%
+Test CCR: 66.61% +- 0.04%
+Number of coeffs:  [685. 595. 518. 475. 683.]
+Average of coefficients: 591.20
+   r=0.5, η = 1, L2
+Training MSE: 0.203897 +- 0.000025
+Test MSE: 0.212665 +- 0.000075
+Training CCR: 68.22% +- 0.03%
+Test CCR: 67.03% +- 0.04%
+Number of coeffs:  [978. 982. 986. 989. 987.]
+Average of coefficients: 984.40
+   r=0.5, η = 10, L1
+Training MSE: 0.211216 +- 0.000028
+Test MSE: 0.216392 +- 0.000029
+Training CCR: 67.61% +- 0.03%
+Test CCR: 66.26% +- 0.04%
+Number of coeffs:  [140.  86.  95.  77.  75.]
+Average of coefficients: 94.60
+   r=0.5, η = 10, L2
+Training MSE: 0.204479 +- 0.000018
+Test MSE: 0.212920 +- 0.000057
+Training CCR: 68.24% +- 0.04%
+Test CCR: 66.93% +- 0.04%
+Number of coeffs:  [983. 974. 987. 980. 981.]
+Average of coefficients: 981.00
+   r=0.5, η = 100, L1
+Training MSE: 0.243981 +- 0.000005
+Test MSE: 0.244001 +- 0.000007
+Training CCR: 54.23% +- 0.00%
+Test CCR: 56.32% +- 0.00%
+Number of coeffs:  [0. 0. 0. 0. 0.]
+Average of coefficients: 0.00
+   r=0.5, η = 100, L2
+Training MSE: 0.207137 +- 0.000011
+Test MSE: 0.214486 +- 0.000032
+Training CCR: 67.90% +- 0.04%
+Test CCR: 66.59% +- 0.02%
+Number of coeffs:  [994. 994. 999. 999. 995.]
+Average of coefficients: 996.20
+   r=0.5, η = 1000, L1
+Training MSE: 0.250000 +- 0.000000
+Test MSE: 0.250000 +- 0.000000
+Training CCR: 54.23% +- 0.00%
+Test CCR: 56.32% +- 0.00%
+Number of coeffs:  [0. 0. 0. 0. 0.]
+Average of coefficients: 0.00
+   r=0.5, η = 1000, L2
+Training MSE: 0.212338 +- 0.000011
+Test MSE: 0.217520 +- 0.000026
+Training CCR: 67.71% +- 0.07%
+Test CCR: 66.12% +- 0.10%
+Number of coeffs:  [1008. 1008. 1008. 1008. 1013.]
+Average of coefficients: 1009.00
+
+2. noMNIST dataset:
+   r=0.5, η = 10−3, L1
+Training MSE: 0.030474 +- 0.000150
+Test MSE: 0.028111 +- 0.000102
+Training CCR: 88.31% +- 0.37%
+Test CCR: 91.07% +- 0.39%
+Number of coeffs:  [887. 901. 912. 873. 881.]
+Average of coefficients: 890.80
+   r=0.5, η = 10−3, L2
+Training MSE: 0.030468 +- 0.000150
+Test MSE: 0.028105 +- 0.000102
+Training CCR: 88.31% +- 0.37%
+Test CCR: 91.07% +- 0.39%
+Number of coeffs:  [885. 903. 912. 872. 880.]
+Average of coefficients: 890.40
+   r=0.5, η = 10−2, L1
+Training MSE: 0.030561 +- 0.000150
+Test MSE: 0.028202 +- 0.000104
+Training CCR: 88.31% +- 0.37%
+Test CCR: 91.07% +- 0.39%
+Number of coeffs:  [890. 901. 915. 877. 891.]
+Average of coefficients: 894.80
+   r=0.5, η = 10−2, L2
+Training MSE: 0.030504 +- 0.000150
+Test MSE: 0.028142 +- 0.000102
+Training CCR: 88.31% +- 0.37%
+Test CCR: 91.07% +- 0.39%
+Number of coeffs:  [886. 902. 911. 871. 881.]
+Average of coefficients: 890.20
+   r=0.5, η = 10−1, L1
+Training MSE: 0.031553 +- 0.000149
+Test MSE: 0.029177 +- 0.000120
+Training CCR: 88.27% +- 0.32%
+Test CCR: 90.87% +- 0.16%
+Number of coeffs:  [903. 919. 930. 896. 915.]
+Average of coefficients: 912.60
+   r=0.5, η = 10−1, L2
+Training MSE: 0.030864 +- 0.000146
+Test MSE: 0.028513 +- 0.000109
+Training CCR: 88.27% +- 0.38%
+Test CCR: 91.07% +- 0.39%
+Number of coeffs:  [886. 900. 908. 867. 881.]
+Average of coefficients: 888.40
+   r=0.5, η = 1, L1
+Training MSE: 0.041710 +- 0.000181
+Test MSE: 0.038911 +- 0.000223
+Training CCR: 85.09% +- 0.25%
+Test CCR: 88.47% +- 0.27%
+Number of coeffs:  [452. 416. 430. 428. 446.]
+Average of coefficients: 434.40
+   r=0.5, η = 1, L2
+Training MSE: 0.034345 +- 0.000123
+Test MSE: 0.032106 +- 0.000178
+Training CCR: 87.67% +- 0.35%
+Test CCR: 90.87% +- 0.45%
+Number of coeffs:  [861. 878. 877. 844. 862.]
+Average of coefficients: 864.40
+   r=0.5, η = 10, L1
+Training MSE: 0.092690 +- 0.000147
+Test MSE: 0.091307 +- 0.000353
+Training CCR: 71.44% +- 0.21%
+Test CCR: 72.07% +- 0.49%
+Number of coeffs:  [74. 84. 84. 85. 83.]
+Average of coefficients: 82.00
+   r=0.5, η = 10, L2
+Training MSE: 0.053834 +- 0.000198
+Test MSE: 0.052068 +- 0.000354
+Training CCR: 82.87% +- 0.33%
+Test CCR: 86.53% +- 0.45%
+Number of coeffs:  [847. 861. 863. 847. 857.]
+Average of coefficients: 855.00
+   r=0.5, η = 100, L1
+Training MSE: 0.138889 +- 0.000000
+Test MSE: 0.138889 +- 0.000000
+Training CCR: 16.67% +- 0.00%
+Test CCR: 16.67% +- 0.00%
+Number of coeffs:  [0. 0. 0. 0. 0.]
+Average of coefficients: 0.00
+   r=0.5, η = 100, L2
+Training MSE: 0.098237 +- 0.000427
+Test MSE: 0.096950 +- 0.000481
+Training CCR: 75.04% +- 0.18%
+Test CCR: 73.80% +- 0.62%
+Number of coeffs:  [956. 984. 968. 971. 963.]
+Average of coefficients: 968.40
+   r=0.5, η = 1000, L1
+Training MSE: 0.138889 +- 0.000000
+Test MSE: 0.138889 +- 0.000000
+Training CCR: 16.67% +- 0.00%
+Test CCR: 16.67% +- 0.00%
+Number of coeffs:  [0. 0. 0. 0. 0.]
+Average of coefficients: 0.00
+   r=0.5, η = 1000, L2
+Training MSE: 0.132357 +- 0.000127
+Test MSE: 0.132098 +- 0.000139
+Training CCR: 68.71% +- 0.58%
+Test CCR: 67.33% +- 0.67%
+Number of coeffs:  [1044. 1057. 1040. 1033. 1041.]
+Average of coefficients: 1043.00

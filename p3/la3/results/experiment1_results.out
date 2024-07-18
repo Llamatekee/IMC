@@ -1,0 +1,176 @@
+EXPERIMENT 1 (ratios)
+Consider number of hidden neurons = 5%, 15%, 25%, 50% 
+
+1. Sin-function dataset:
+   r=0.05
+Training MSE: 0.013817 +- 0.000189
+Test MSE: 0.022182 +- 0.000245
+Training CCR: 0.83% +- 0.00%
+Test CCR: 2.44% +- 0.00%
+   r=0.15
+Training MSE: 0.011215 +- 0.000068
+Test MSE: 0.369838 +- 0.080841
+Training CCR: 0.83% +- 0.00%
+Test CCR: 2.44% +- 0.00%
+   r=0.25
+Training MSE: 0.010333 +- 0.000087
+Test MSE: 3.195631 +- 2.298367
+Training CCR: 0.83% +- 0.00%
+Test CCR: 2.44% +- 0.00%
+   r=0.5
+Training MSE: 0.010357 +- 0.000002
+Test MSE: 2.021572 +- 0.296891
+Training CCR: 0.83% +- 0.00%
+Test CCR: 2.44% +- 0.00%
+
+2. Quake dataset:
+   r=0.05
+Training MSE: 0.028397 +- 0.000056
+Test MSE: 0.028377 +- 0.000262
+Training CCR: 31.78% +- 0.00%
+Test CCR: 31.56% +- 0.00%
+   r=0.15
+Training MSE: 0.025373 +- 0.000101
+Test MSE: 0.040940 +- 0.002146
+Training CCR: 31.84% +- 0.00%
+Test CCR: 30.79% +- 0.21%
+   r=0.25
+Training MSE: 0.022196 +- 0.000078
+Test MSE: 0.947950 +- 0.297197
+Training CCR: 31.84% +- 0.00%
+Test CCR: 29.28% +- 0.36%
+   r=0.5
+Training MSE: 0.018451 +- 0.000078
+Test MSE: 156.759249 +- 57.549951
+Training CCR: 31.90% +- 0.00%
+Test CCR: 27.01% +- 0.21%
+
+3. Auto MPG dataset:
+   r=0.05
+Training MSE: 14.977936 +- 0.740270
+Test MSE: 16.938720 +- 0.938168
+Training CCR: 7.28% +- 0.47%
+Test CCR: 7.34% +- 1.48%
+   r=0.15
+Training MSE: 7.429396 +- 0.238213
+Test MSE: 9.281792 +- 0.849108
+Training CCR: 12.52% +- 1.38%
+Test CCR: 13.16% +- 1.29%
+   r=0.25
+Training MSE: 5.563757 +- 0.133493
+Test MSE: 12.393016 +- 0.730917
+Training CCR: 13.42% +- 1.21%
+Test CCR: 13.92% +- 2.12%
+   r=0.5
+Training MSE: 2.657280 +- 0.121008
+Test MSE: 72.879820 +- 44.774529
+Training CCR: 23.77% +- 0.72%
+Test CCR: 7.85% +- 2.58%
+
+4. ProPublica COMPAS:
+   r=0.05
+Training MSE: 0.204786 +- 0.000154
+Test MSE: 0.212952 +- 0.000098
+Training CCR: 68.07% +- 0.07%
+Test CCR: 66.85% +- 0.09%
+Training FN0: 60.37% +- 0.44%
+Training FN1: 32.46% +- 0.25%
+Test FN0: 51.24% +- 0.75%
+Test FN1: 37.58% +- 0.22%
+Training FP0: 14.02% +- 0.50%
+Training FP1: 31.09% +- 0.18%
+Test FP0: 21.25% +- 0.28%
+Test FP1: 28.89% +- 0.15%
+Training TP0: 39.63% +- 0.44%
+Training TP1: 67.54% +- 0.25%
+Test TP0: 48.76% +- 0.75%
+Test TP1: 62.42% +- 0.22%
+Training TN0: 85.98% +- 0.50%
+Training TN1: 68.91% +- 0.18%
+Test TN0: 78.75% +- 0.28%
+Test TN1: 71.11% +- 0.15%
+   r=0.15
+Training MSE: 0.204321 +- 0.000063
+Test MSE: 0.212869 +- 0.000120
+Training CCR: 68.13% +- 0.04%
+Test CCR: 66.76% +- 0.08%
+Training FN0: 59.26% +- 0.63%
+Training FN1: 32.23% +- 0.18%
+Test FN0: 50.62% +- 1.14%
+Test FN1: 37.32% +- 0.14%
+Training FP0: 14.64% +- 0.42%
+Training FP1: 31.18% +- 0.17%
+Test FP0: 21.82% +- 0.42%
+Test FP1: 29.28% +- 0.24%
+Training TP0: 40.74% +- 0.63%
+Training TP1: 67.77% +- 0.18%
+Test TP0: 49.38% +- 1.14%
+Test TP1: 62.68% +- 0.14%
+Training TN0: 85.36% +- 0.42%
+Training TN1: 68.82% +- 0.17%
+Test TN0: 78.18% +- 0.42%
+Test TN1: 70.72% +- 0.24%
+   r=0.25
+Training MSE: 0.203906 +- 0.000050
+Test MSE: 0.212544 +- 0.000058
+Training CCR: 68.27% +- 0.03%
+Test CCR: 66.97% +- 0.05%
+Training FN0: 59.23% +- 0.32%
+Training FN1: 32.19% +- 0.04%
+Test FN0: 50.23% +- 0.40%
+Test FN1: 37.25% +- 0.23%
+Training FP0: 14.04% +- 0.16%
+Training FP1: 31.21% +- 0.17%
+Test FP0: 21.14% +- 0.23%
+Test FP1: 29.28% +- 0.20%
+Training TP0: 40.77% +- 0.32%
+Training TP1: 67.81% +- 0.04%
+Test TP0: 49.77% +- 0.40%
+Test TP1: 62.75% +- 0.23%
+Training TN0: 85.96% +- 0.16%
+Training TN1: 68.79% +- 0.17%
+Test TN0: 78.86% +- 0.23%
+Test TN1: 70.72% +- 0.20%
+   r=0.5
+Training MSE: 0.203839 +- 0.000023
+Test MSE: 0.212644 +- 0.000078
+Training CCR: 68.22% +- 0.03%
+Test CCR: 67.05% +- 0.04%
+Training FN0: 59.08% +- 0.51%
+Training FN1: 31.61% +- 0.17%
+Test FN0: 49.61% +- 0.25%
+Test FN1: 36.30% +- 0.33%
+Training FP0: 14.76% +- 0.37%
+Training FP1: 31.54% +- 0.10%
+Test FP0: 21.36% +- 0.11%
+Test FP1: 29.94% +- 0.22%
+Training TP0: 40.92% +- 0.51%
+Training TP1: 68.39% +- 0.17%
+Test TP0: 50.39% +- 0.25%
+Test TP1: 63.70% +- 0.33%
+Training TN0: 85.24% +- 0.37%
+Training TN1: 68.46% +- 0.10%
+Test TN0: 78.64% +- 0.11%
+Test TN1: 70.06% +- 0.22%
+
+5. noMNIST dataset:
+   r=0.05
+Training MSE: 0.039713 +- 0.000690
+Test MSE: 0.036654 +- 0.001235
+Training CCR: 84.13% +- 0.46%
+Test CCR: 88.20% +- 0.45%
+   r=0.15
+Training MSE: 0.032725 +- 0.000216
+Test MSE: 0.030078 +- 0.000296
+Training CCR: 87.47% +- 0.41%
+Test CCR: 90.67% +- 0.37%
+   r=0.25
+Training MSE: 0.031242 +- 0.000354
+Test MSE: 0.028816 +- 0.000572
+Training CCR: 87.96% +- 0.29%
+Test CCR: 90.87% +- 0.27%
+   r=0.5
+Training MSE: 0.030464 +- 0.000150
+Test MSE: 0.028101 +- 0.000102
+Training CCR: 88.31% +- 0.37%
+Test CCR: 91.07% +- 0.39%

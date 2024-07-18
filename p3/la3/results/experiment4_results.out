@@ -1,0 +1,30 @@
+EXPERIMENT 4 (classification/regression)
+
+Consider a classification dataset as a regression dataset 
+
+-ProPublica COMPAS:
+   r=0.05
+Training CCR: 70% +- 0%
+Test CCR: 67% +- 0%
+   r=0.15
+Training CCR: 73% +- 0%
+Test CCR: 62% +- 0%
+   r=0.25
+Training CCR: 75% +- 0%
+Test CCR: 56% +- 0%
+   r=0.5
+Training CCR: 78% +- 0%
+Test CCR: 52% +- 0%
+--Best Parameters
+   r=0.05
+Training CCR: 70% +- 0%
+Test CCR: 67% +- 0%
+   r=0.15
+Training CCR: 73% +- 0%
+Test CCR: 62% +- 0%
+   r=0.25
+Training CCR: 75% +- 0%
+Test CCR: 56% +- 0%
+   r=0.5
+Training CCR: 78% +- 0%
+Test CCR: 52% +- 0%

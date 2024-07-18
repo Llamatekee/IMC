@@ -1,0 +1,5 @@
+- decir que el rbf_nomnist es para obtener el fairness de noMNIST
+
+- decir lo del ccr para una y lo del MSE para otra
+
+- falta poner lo de FN TN ETC EN EXP2
