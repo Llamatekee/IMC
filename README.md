@@ -36,8 +36,7 @@ The objective of the module is to develop and implement classification and regre
 To get started with the projects in this repository, follow these steps:
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/project.git
-   cd project
+   git clone https://github.com/Llamatekee/IMC/tree/main
 
 2. **Install dependencies**:
 Navigate to the respective project directory and install the required dependencies as specified at each subdirectory.
